@@ -13,20 +13,20 @@ A web application to generate QR codes in your browser using **Flask** and **Pyt
 
 ---
 
-Automated Test (Selenium)
+## Automated Test (Selenium)
 
-test_qr.py automatically tests QR code generation:
+### test_qr.py automatically tests QR code generation:
 
-Opens the web app in a browser.
+- Opens the web app in a browser.
 
-Enters a test URL in the input box.
+- Enters a test URL in the input box.
 
-Clicks the Generate QR button.
+- Clicks the Generate QR button.
 
-Waits for the QR code to appear.
+- Waits for the QR code to appear.
 
-Verifies that the QR code image is present on the page.
+- Verifies that the QR code image is present on the page.
 
-Closes the browser.
+- Closes the browser.
 
 This ensures the main functionality of your QR code generator works correctly.
